@@ -11,5 +11,3 @@ def pascal(n):
         
         set = new_set
     return set
-    
-print pascal(10)
