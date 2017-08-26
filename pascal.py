@@ -11,3 +11,11 @@ def pascal(n):
         
         set = new_set
     return set
+
+
+def pascal_v2(n):
+    line = [1]
+    for x in range(n):
+        line.append(line[x] * (n - x) / (x + 1))
+    
+    return line
